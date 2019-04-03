@@ -28,6 +28,7 @@ class HalamanSatu extends StatelessWidget {
     );
   }
 }
+
 class HalamanDua extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
@@ -38,7 +39,7 @@ class HalamanDua extends StatelessWidget {
         child: new IconButton(
             icon: new Icon(Icons.account_balance, size: 50,),
             onPressed:(){
-              Navigator.pushNamed(context, '/HalDua');
+              Navigator.pushNamed(context, '/HalSatu');
             }
         ),
       ),
